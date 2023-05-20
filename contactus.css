@@ -1,0 +1,110 @@
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', 'sans-serif';
+
+}
+body{
+  
+        max-width: 1440px;
+        background-color: #f0f4f5;
+        overflow: hidden;
+        margin: auto;
+      
+}
+
+/*
+navigation bar
+*/
+nav{
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+/*Designing logo*/
+nav img {
+    width: 150px;
+  }
+/* designing menu links */
+  nav ul {
+    display: flex;
+    align-items: center;
+  }
+
+  nav ul li {
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+  }
+
+  nav ul li:first-child {
+    font-weight: 700;
+    color: #0d0f0e;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  main{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div form{
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  form{
+    width: 350px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-self: center;
+  }
+
+  form h1{
+    text-align: center;
+  }
+  div form label{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  div form  input{
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+  div form textarea{
+    resize: none;
+    height: 100px;
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+  .btn{
+    border: transparent;
+    background-color: #20bc7e;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px
+    
+  }
+
